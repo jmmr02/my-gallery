@@ -15,7 +15,6 @@
 html {
 	/* Set font size to 10px for easier conversion to rem and em values  */
 	font-size: 62.5%;
-	height: 100%;
 }
 
 h1,
@@ -39,7 +38,7 @@ p {
 
 body {
 	height: auto;
-	padding-bottom: 7.2em;
+	padding-bottom: 15em;
 	position: relative;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 600;
@@ -58,7 +57,7 @@ img {
 
 footer {
 	position: absolute;
-	bottom: 10px;
+	bottom: 20px;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -163,4 +162,26 @@ footer {
 	color: var(--color-tertiary);
 	font-size: 1.4rem;
 	text-decoration: none;
+}
+
+@media (min-width: 1440px) {
+	.profile {
+		padding: 4em 0;
+	}
+
+	.profile__name {
+		font-size: 2.4rem;
+	}
+
+	.profile__location {
+		font-size: 1.4rem;
+	}
+
+	.profile-stats__value {
+		font-size: 1.8rem;
+	}
+
+	.profile-stats__label {
+		font-size: 1.4rem;
+	}
 }
