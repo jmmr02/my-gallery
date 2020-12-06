@@ -2,17 +2,88 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A page that display an gallery of images in a grid">
-  <title>My Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A page that display an gallery of images in a grid">
+    <title>My Gallery</title>
 
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/styles.css">
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets  -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
+    <main>
+
+        <!-- Start of container  -->
+        <div class="container">
+
+            <!-- Start of profile  -->
+            <div class="profile">
+                <img src="./images/profilePhoto.png" alt="A picture of young man with brown hair"
+                    class="profile__image">
+
+                <p class="profile__name">Rodney Cotton</p>
+                <p class="profile__location">Helsinki, Finland</p>
+
+                <div class="profile-stat-group">
+                    <div class="profile-stats">
+                        <p class="profile-stats__value">100</p>
+                        <p class="profile-stats__label">Posts</p>
+                    </div>
+
+                    <div class="profile-stats">
+                        <p class="profile-stats__value">2,242</p>
+                        <p class="profile-stats__label">Followers</p>
+                    </div>
+
+                    <div class="profile-stats">
+                        <p class="profile-stats__value">1,432</p>
+                        <p class="profile-stats__label">Following</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of profile  -->
+
+            <div class="gallery">
+                <div class="gallery__item  gallery__item-1">
+                    <img src="./images/photo1.png" alt="" class="gallery__image">
+                </div>
+
+                <div class="gallery__item  gallery__item-2">
+                    <img src="./images/photo2.png" alt="" class="gallery__image">
+                </div>
+
+                <div class="gallery__item  gallery__item-3">
+                    <img src="./images/photo3.png" alt="" class="gallery__image">
+                </div>
+
+                <div class="gallery__item  gallery__item-4">
+                    <img src="./images/photo4.png" alt="" class="gallery__image">
+                </div>
+
+                <div class="gallery__item  gallery__item-5">
+                    <img src="./images/photo5.png" alt="" class="gallery__image">
+                </div>
+
+                <div class="gallery__item  gallery__item-6">
+                    <img src="./images/photo6.png" alt="" class="gallery__image">
+                </div>
+            </div>
+        </div>
+        <!-- End of container  -->
+
+    </main>
+
+    <footer>
+        <p class="attribution">jmmr02@<a href="devchallenges.io" target="_blank" rel="noopener noreferrer"
+                class="attribution-link">Devchallenges.io</a></p>
+    </footer>
 </body>
 
 </html>
